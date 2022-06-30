@@ -42,3 +42,7 @@ Post.page(params[:page]).order('created_at DESC')
 [intagram](https://instagram.com/victoremanueleh)
 
 Happy paginating.
+
+
+![Mi_info](https://cdn.discordapp.com/attachments/885270943235199028/991115159542177812/VictorEmanuel_-_Mi_Info..png)
+
