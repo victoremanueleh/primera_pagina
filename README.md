@@ -1,16 +1,16 @@
-# will_paginate
+# INICIO DE LA PAGINA
 
-will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, Merb, DataMapper and Sequel.
+Este es el abance del contenido
 
 ``` ruby
-gem 'will_paginate', '~> 3.3'
+Etiqueta para codigo
 ```
 
 See [installation instructions][install] on the wiki for more info.
 
-ℹ️ will_paginate is now in _maintenance mode_ and it will not be receiving new features. [See alternatives](https://www.ruby-toolbox.com/categories/pagination)
+ℹ️ Puedes acceder a mi perfil para ver informacion acerca de mi persona. [Mi perfil](https://www.facebook.com/victoremanueleh)
 
-## Basic will_paginate use
+## En esta parte se muestra una consepto diferente de codigo
 
 ``` ruby
 ## perform a paginated query:
@@ -20,8 +20,8 @@ Post.paginate(page: params[:page], per_page: 30)
 ## render page links in the view:
 <%= will_paginate @posts %>
 ```
-And that's it! You're done. You just need to add some CSS styles to [make those pagination links prettier][css].
-You can customize the default "per_page" value:
+Pequeña descripcion del codigo implementado de la nueva pagina en git
+
 ``` ruby
 # for the Post model
 class Post
@@ -30,7 +30,8 @@ end
 # set per_page globally
 WillPaginate.per_page = 10
 ```
-New in Active Record 3:
+La nueva estrategia de codigo abierto
+
 ``` ruby
 # paginate in Active Record now returns a Relation
 Post.where(:published => true).paginate(:page => params[:page]).order('id DESC')
@@ -38,6 +39,6 @@ Post.where(:published => true).paginate(:page => params[:page]).order('id DESC')
 Post.page(params[:page]).order('created_at DESC')
 ```
 
-See [the wiki][wiki] for more documentation. [Report bugs][issues] on GitHub.
+[intagram](https://instagram.com/victoremanueleh)
 
 Happy paginating.
